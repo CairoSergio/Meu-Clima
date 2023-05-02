@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import { Image, ScrollView, Keyboard,TouchableWithoutFeedback,Text, TextInput, TouchableOpacity, View, ActivityIndicator } from 'react-native'
-import {useWeatherData, Weather,Forecast } from '../features/whather';
+import {useWeatherData, Weather,Forecast } from '../features/weather';
 import { styles } from './style';
 import { StatusBar } from 'expo-status-bar';
 import { Ionicons } from '@expo/vector-icons';
